@@ -59,7 +59,15 @@ public class BossMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
-
+        if (yvel >= 0.1 || xvel <= -0.1)
+        {
+            anim.SetBool("isJumping", true);
+        }
+        else
+        {
+            anim.SetBool("isJuming", false);
+        }
+        
 
     }
     private void flip()

@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 
 public class BossMovement : MonoBehaviour
@@ -9,17 +10,21 @@ public class BossMovement : MonoBehaviour
     bool isGrounded;
     public LayerMask groundLayer;
     float xvel, yvel;
+    float timer;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         xvel = -1.5f;
         yvel = 0f;
+        timer = 4;
     }
 
     // Update is called once per frame
     void Update()
     {
         yvel = rb.linearVelocity.y;
+        DoJump();
+
 
 
         //groundcheck for enemy moving left
@@ -107,5 +112,17 @@ public class BossMovement : MonoBehaviour
         return hitSomething;
 
     }
+    void DoJump()
+    {
+        timer -= Time.deltaTime;
+        if (timer < 0)
+        {
+            yvel = 9;
+            timer = 4;
+        }
+       
+    }
+    
+    
 
 }

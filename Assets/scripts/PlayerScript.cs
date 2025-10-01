@@ -11,16 +11,27 @@ public class PlayerScript : MonoBehaviour
     bool isGrounded;
     public LayerMask groundLayer;
     public int lives;
+    HelperScript helper;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         groundLayer = LayerMask.GetMask("Ground");
+        helper = gameObject.AddComponent<HelperScript>();
+        lives = 3;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey("a"))
+        {
+            helper.DoFlipObject(true);
+        }
+        if(Input.GetKey("d"))
+        {
+            helper.DoFlipObject(false);
+        }
         lives = 3;
         IsGrounded();
 
@@ -86,6 +97,7 @@ public class PlayerScript : MonoBehaviour
             xvel = -7;
         }
         rb.linearVelocity = new Vector3(xvel, yvel, 0);
+      /*
         if (!isFacingRight && xvel < 0f)
         {
             flip();
@@ -94,7 +106,9 @@ public class PlayerScript : MonoBehaviour
         {
             flip();
         }
+        */
     }
+    /*
     private void flip()
     {
         isFacingRight = !isFacingRight;
@@ -102,7 +116,7 @@ public class PlayerScript : MonoBehaviour
         localScale.x *= -1f;
         transform.localScale = localScale;
     }
-
+     */
     private void OnCollisionEnter2D(Collision2D other)
     {
         print("The player has found " + other.gameObject.name );

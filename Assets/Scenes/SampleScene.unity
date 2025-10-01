@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 38358645}
   - component: {fileID: 38358644}
   m_Layer: 3
-  m_Name: background platforms_3 (4)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 50926844}
   - component: {fileID: 50926843}
   m_Layer: 3
-  m_Name: background platforms_3 (1)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 56400168}
   - component: {fileID: 56400167}
   m_Layer: 3
-  m_Name: background platforms_3 (7)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 115670828}
   - component: {fileID: 115670827}
   m_Layer: 0
-  m_Name: background platforms_10
+  m_Name: magic shroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 167651331}
   - component: {fileID: 167651330}
   m_Layer: 3
-  m_Name: background platforms_21 (9)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1287,7 +1287,7 @@ Transform:
   m_GameObject: {fileID: 191670616}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.85, y: -2.73, z: 0}
+  m_LocalPosition: {x: -6.28, y: -1.97, z: 0}
   m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1388,7 +1388,7 @@ GameObject:
   - component: {fileID: 213145263}
   - component: {fileID: 213145262}
   m_Layer: 3
-  m_Name: background platforms_21 (12)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1525,7 +1525,7 @@ GameObject:
   - component: {fileID: 219103223}
   - component: {fileID: 219103222}
   m_Layer: 3
-  m_Name: background platforms_15 (7)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1868,7 +1868,7 @@ GameObject:
   - component: {fileID: 233133102}
   - component: {fileID: 233133101}
   m_Layer: 0
-  m_Name: background platforms_12
+  m_Name: tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1959,7 +1959,7 @@ GameObject:
   - component: {fileID: 242350173}
   - component: {fileID: 242350172}
   m_Layer: 3
-  m_Name: background platforms_1
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 320357227}
   - component: {fileID: 320357226}
   m_Layer: 3
-  m_Name: background platforms_21 (10)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 346148389}
   - component: {fileID: 346148388}
   m_Layer: 3
-  m_Name: background platforms_3 (5)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2673,7 +2673,7 @@ GameObject:
   - component: {fileID: 430772622}
   - component: {fileID: 430772621}
   m_Layer: 3
-  m_Name: background platforms_21
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2810,7 +2810,7 @@ GameObject:
   - component: {fileID: 482433328}
   - component: {fileID: 482433327}
   m_Layer: 0
-  m_Name: background platforms_19 (2)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3235,7 +3235,7 @@ GameObject:
   - component: {fileID: 521808866}
   - component: {fileID: 521808865}
   m_Layer: 0
-  m_Name: background platforms_19 (1)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3372,7 +3372,7 @@ GameObject:
   - component: {fileID: 522615181}
   - component: {fileID: 522615180}
   m_Layer: 3
-  m_Name: background platforms_21 (4)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3660,7 +3660,7 @@ GameObject:
   - component: {fileID: 579475774}
   - component: {fileID: 579475773}
   m_Layer: 3
-  m_Name: background platforms_15 (4)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3881,7 +3881,7 @@ GameObject:
   - component: {fileID: 632874782}
   - component: {fileID: 632874781}
   m_Layer: 3
-  m_Name: background platforms_21 (1)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4017,7 +4017,7 @@ GameObject:
   - component: {fileID: 748622305}
   - component: {fileID: 748622304}
   m_Layer: 0
-  m_Name: background platforms_12
+  m_Name: tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4259,7 +4259,7 @@ GameObject:
   - component: {fileID: 844029875}
   - component: {fileID: 844029874}
   m_Layer: 3
-  m_Name: background platforms_0 (1)
+  m_Name: ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4396,7 +4396,7 @@ GameObject:
   - component: {fileID: 882547900}
   - component: {fileID: 882547902}
   m_Layer: 3
-  m_Name: background platforms_3 (8)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4684,7 +4684,7 @@ GameObject:
   - component: {fileID: 959228561}
   - component: {fileID: 959228560}
   m_Layer: 3
-  m_Name: background platforms_21 (3)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4821,7 +4821,7 @@ GameObject:
   - component: {fileID: 962023937}
   - component: {fileID: 962023936}
   m_Layer: 3
-  m_Name: background platforms_19 (5)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5165,7 +5165,7 @@ GameObject:
   - component: {fileID: 993982363}
   - component: {fileID: 993982362}
   m_Layer: 3
-  m_Name: background platforms_19 (6)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5509,7 +5509,7 @@ GameObject:
   - component: {fileID: 1067025188}
   - component: {fileID: 1067025187}
   m_Layer: 3
-  m_Name: background platforms_0
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5646,7 +5646,7 @@ GameObject:
   - component: {fileID: 1112312846}
   - component: {fileID: 1112312845}
   m_Layer: 3
-  m_Name: background platforms_21 (7)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5783,7 +5783,7 @@ GameObject:
   - component: {fileID: 1222675321}
   - component: {fileID: 1222675320}
   m_Layer: 3
-  m_Name: background platforms_21 (2)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6127,7 +6127,7 @@ GameObject:
   - component: {fileID: 1273429010}
   - component: {fileID: 1273429009}
   m_Layer: 3
-  m_Name: background platforms_19 (4)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6263,7 +6263,7 @@ GameObject:
   - component: {fileID: 1278509870}
   - component: {fileID: 1278509869}
   m_Layer: 0
-  m_Name: background platforms_8
+  m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6354,7 +6354,7 @@ GameObject:
   - component: {fileID: 1287630698}
   - component: {fileID: 1287630697}
   m_Layer: 3
-  m_Name: background platforms_15
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6491,7 +6491,7 @@ GameObject:
   - component: {fileID: 1290652440}
   - component: {fileID: 1290652439}
   m_Layer: 3
-  m_Name: background platforms_21 (11)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6628,7 +6628,7 @@ GameObject:
   - component: {fileID: 1316251689}
   - component: {fileID: 1316251688}
   m_Layer: 3
-  m_Name: background platforms_21 (5)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6765,7 +6765,7 @@ GameObject:
   - component: {fileID: 1343221387}
   - component: {fileID: 1343221386}
   m_Layer: 3
-  m_Name: background platforms_19 (3)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7053,7 +7053,7 @@ GameObject:
   - component: {fileID: 1431999333}
   - component: {fileID: 1431999332}
   m_Layer: 3
-  m_Name: background platforms_21 (8)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7604,7 +7604,7 @@ GameObject:
   - component: {fileID: 1512745903}
   - component: {fileID: 1512745902}
   m_Layer: 3
-  m_Name: background platforms_3 (6)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7741,7 +7741,7 @@ GameObject:
   - component: {fileID: 1521750438}
   - component: {fileID: 1521750437}
   m_Layer: 3
-  m_Name: background platforms_0
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7919,7 +7919,7 @@ GameObject:
   - component: {fileID: 1609308565}
   - component: {fileID: 1609308564}
   m_Layer: 0
-  m_Name: background platforms_13
+  m_Name: stump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8010,7 +8010,7 @@ GameObject:
   - component: {fileID: 1667256945}
   - component: {fileID: 1667256944}
   m_Layer: 3
-  m_Name: background platforms_19
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8354,7 +8354,7 @@ GameObject:
   - component: {fileID: 1786577629}
   - component: {fileID: 1786577628}
   m_Layer: 3
-  m_Name: background platforms_15 (5)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8491,7 +8491,7 @@ GameObject:
   - component: {fileID: 1826864088}
   - component: {fileID: 1826864087}
   m_Layer: 3
-  m_Name: background platforms_21 (6)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8628,7 +8628,7 @@ GameObject:
   - component: {fileID: 1838160314}
   - component: {fileID: 1838160313}
   m_Layer: 3
-  m_Name: background platforms_15 (6)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8916,7 +8916,7 @@ GameObject:
   - component: {fileID: 1899442451}
   - component: {fileID: 1899442450}
   m_Layer: 3
-  m_Name: background platforms_15 (3)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9053,7 +9053,7 @@ GameObject:
   - component: {fileID: 1931026121}
   - component: {fileID: 1931026120}
   m_Layer: 3
-  m_Name: background platforms_3 (3)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9190,7 +9190,7 @@ GameObject:
   - component: {fileID: 1962735493}
   - component: {fileID: 1962735492}
   m_Layer: 3
-  m_Name: background platforms_3
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9327,7 +9327,7 @@ GameObject:
   - component: {fileID: 1966278132}
   - component: {fileID: 1966278131}
   m_Layer: 3
-  m_Name: background platforms_0 (2)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9464,7 +9464,7 @@ GameObject:
   - component: {fileID: 2011916406}
   - component: {fileID: 2011916405}
   m_Layer: 3
-  m_Name: background platforms_15 (1)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9601,7 +9601,7 @@ GameObject:
   - component: {fileID: 2077201828}
   - component: {fileID: 2077201827}
   m_Layer: 3
-  m_Name: background platforms_3 (2)
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

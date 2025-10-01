@@ -24,14 +24,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey("a"))
-        {
-            helper.DoFlipObject(true);
-        }
-        if(Input.GetKey("d"))
-        {
-            helper.DoFlipObject(false);
-        }
+        
         lives = 3;
         IsGrounded();
 
@@ -42,12 +35,12 @@ public class PlayerScript : MonoBehaviour
         
         if (Input.GetKey("a"))
         {
-            
+            helper.DoFlipObject(true);
             xvel = -4;
         }
         if (Input.GetKey("d"))
         {
-            
+            helper.DoFlipObject(false);
             xvel = 4;
         }
         if (xvel >= 0.1 || xvel <= -0.1)

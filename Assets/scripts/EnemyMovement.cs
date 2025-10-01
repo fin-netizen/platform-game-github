@@ -76,6 +76,10 @@ public class EnemyMovement : MonoBehaviour
         localScale.x *= -1f;
         transform.localScale = localScale;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        print("enemy says: get off me");
+    }
 
 
 

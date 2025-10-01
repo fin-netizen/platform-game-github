@@ -11,12 +11,13 @@ public class BossMovement : MonoBehaviour
     public LayerMask groundLayer;
     float xvel, yvel;
     float timer;
+    public PlayerScript playerscript;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         xvel = -1.5f;
         yvel = 0f;
-        timer = 7;
+        timer = 10;
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class BossMovement : MonoBehaviour
         yvel = rb.linearVelocity.y;
         DoJump();
 
-
+        
 
         //groundcheck for enemy moving left
         if (xvel < 0)
@@ -118,7 +119,8 @@ public class BossMovement : MonoBehaviour
         if (timer < 0)
         {
             yvel = 9;
-            timer = 7;
+            timer = 10;
+            print("Boss says: traitor");
         }
        
     }

@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
     public bool isFacingRight;
     bool isGrounded;
     public LayerMask groundLayer;
+    public int lives;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        lives = 3;
         IsGrounded();
 
         float xvel, yvel;

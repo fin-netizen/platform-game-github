@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
     bool isGrounded;
     public LayerMask groundLayer;
     float xvel, yvel;
+    public PlayerScript playerscript;
 
     void Start()
     {
@@ -21,8 +22,9 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     { 
 
-        
-        
+        print("Enemy says: the player has " + playerscript.lives + " lives");
+
+
         yvel = rb.linearVelocity.y;
 
 

@@ -10,19 +10,21 @@ public class EnemyMovement : MonoBehaviour
     public LayerMask groundLayer;
     float xvel, yvel;
     public PlayerScript playerscript;
+    float timer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         xvel = -1.5f;
         yvel = 0f;
+        print("Enemy says: the player has " + playerscript.lives + " lives");
+
     }
 
     // Update is called once per frame
     void Update()
     { 
 
-        print("Enemy says: the player has " + playerscript.lives + " lives");
 
 
         yvel = rb.linearVelocity.y;

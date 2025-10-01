@@ -71,7 +71,7 @@ public class BossMovement : MonoBehaviour
         }
         else
         {
-            anim.SetBool("isJuming", false);
+            anim.SetBool("isJumping", false);
         }
         
 

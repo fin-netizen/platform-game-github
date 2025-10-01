@@ -66,7 +66,7 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             yvel = 7;
-            print("do jump");
+          
 
         }
         if (Input.GetKey(KeyCode.Space)) 

@@ -16,7 +16,7 @@ public class BossMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         xvel = -1.5f;
         yvel = 0f;
-        timer = 4;
+        timer = 7;
     }
 
     // Update is called once per frame
@@ -118,7 +118,7 @@ public class BossMovement : MonoBehaviour
         if (timer < 0)
         {
             yvel = 9;
-            timer = 4;
+            timer = 7;
         }
        
     }
